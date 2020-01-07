@@ -1,4 +1,5 @@
 import "./Home.css";
+import {Link} from 'react-router-dom';
 
 import React, { Component } from "react";
 
@@ -26,10 +27,12 @@ export default class Home extends Component {
           {this.state.users.map((value, index) => {
             return (
               <li key={index}>
+                <Link to={'/' + value.id}>
                 <div className="list-holder">
                   <img src={value.profileImage} />
                   <p>{value.firstName + " " + value.lastName}</p>
                 </div>
+                </Link>
               </li>
             );
           })}

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pwa-reactjs/static/css/main.633f9ce8.chunk.css",
+    "main.css": "/pwa-reactjs/static/css/main.3a9d0382.chunk.css",
     "main.js": "/pwa-reactjs/static/js/main.09034430.chunk.js",
     "main.js.map": "/pwa-reactjs/static/js/main.09034430.chunk.js.map",
     "runtime-main.js": "/pwa-reactjs/static/js/runtime-main.f80cbb6d.js",
@@ -8,15 +8,15 @@
     "static/js/2.e70e917d.chunk.js": "/pwa-reactjs/static/js/2.e70e917d.chunk.js",
     "static/js/2.e70e917d.chunk.js.map": "/pwa-reactjs/static/js/2.e70e917d.chunk.js.map",
     "index.html": "/pwa-reactjs/index.html",
-    "precache-manifest.44dd342533db2172544515781da2ef36.js": "/pwa-reactjs/precache-manifest.44dd342533db2172544515781da2ef36.js",
+    "precache-manifest.db30ddbeb2751961036ba54f43f509f4.js": "/pwa-reactjs/precache-manifest.db30ddbeb2751961036ba54f43f509f4.js",
     "service-worker.js": "/pwa-reactjs/service-worker.js",
-    "static/css/main.633f9ce8.chunk.css.map": "/pwa-reactjs/static/css/main.633f9ce8.chunk.css.map",
+    "static/css/main.3a9d0382.chunk.css.map": "/pwa-reactjs/static/css/main.3a9d0382.chunk.css.map",
     "static/js/2.e70e917d.chunk.js.LICENSE": "/pwa-reactjs/static/js/2.e70e917d.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.f80cbb6d.js",
     "static/js/2.e70e917d.chunk.js",
-    "static/css/main.633f9ce8.chunk.css",
+    "static/css/main.3a9d0382.chunk.css",
     "static/js/main.09034430.chunk.js"
   ]
 }

@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Visit https://thesamiroli.github.io/PWA-ReactJS/#/ to view the built project
 
 ## Available Scripts
 

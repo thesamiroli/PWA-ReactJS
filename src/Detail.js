@@ -4,10 +4,11 @@ import "./Detail.css";
 
 export default class Detail extends Component {
   render() {
-    let user = this.props.users
-
+    let user = this.props.users;
+    let toRender = `<div> Null </div>`
     return (
-      <div className="details-main">
+      user != undefined ? 
+      (<div className="details-main">
         <div className="details-head">
           <div className="details-name">
             {user.firstName + " " + user.lastName}
@@ -49,7 +50,7 @@ export default class Detail extends Component {
         <Link to="/">
           <div className="close">CLOSE</div>
         </Link>
-      </div>
+      </div>) : toRender
     );
   }
 }

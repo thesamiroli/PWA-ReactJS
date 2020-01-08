@@ -5,15 +5,17 @@ import "./Detail.css";
 export default class Detail extends Component {
   render() {
     let user = this.props.users;
-    let toRender = `<div> Null </div>`
-    return (
-      user != undefined ? 
-      (<div className="details-main">
+    let toRender = `<div> Null </div>`;
+    return user != undefined ? (
+      <div className="details-main">
         <div className="details-head">
           <div className="details-name">
             {user.firstName + " " + user.lastName}
           </div>
-          <img src={user.profileImage} />
+          <div className="image-holder">
+            <img src={user.profileImage} className="bg-image" />
+            <img src={user.profileImage} className="profile-image" />
+          </div>
         </div>
         <div className="details-body">
           <div className="details-adress">
@@ -50,7 +52,9 @@ export default class Detail extends Component {
         <Link to="/">
           <div className="close">CLOSE</div>
         </Link>
-      </div>) : toRender
+      </div>
+    ) : (
+      toRender
     );
   }
 }
